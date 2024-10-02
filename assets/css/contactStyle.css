@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 2px solid;
+}
+.red-row td {
+    height: 400px;
+    vertical-align: middle;
+}
+.green-row td {
+    height: 400px;
+    vertical-align: middle;
+}
+.blue-row td {
+    height: 400px;
+    vertical-align: middle;
+}
+.contactContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contactTitle h2 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.contactTitle hr {
+    border: none;
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contactInputs {
+    height: 300px;
+    width: 800px;
+    font-weight: 500px;
+}
+.contactForm button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    background: red;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .contactInputs{
+        width: 80vw;
+    }
+}

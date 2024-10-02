@@ -10,33 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/contactStyle.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			table {
-				width: 100%;
-				border-collapse: collapse;
-			}
-			th, td {
-				padding: 10px;
-				text-align: left;
-				border: 2px solid;
-			}
-			.red-row td {
-				height: 400px;
-				font-family: "Roboto", Helvetica, sans-serif;
-				vertical-align: middle;
-			}
-			.green-row td {
-				height: 400px;
-				font-family: "Roboto", Helvetica, sans-serif;
-				vertical-align: middle;
-			}
-			.blue-row td {
-				height: 400px;
-				font-family: "Roboto", Helvetica, sans-serif;
-				vertical-align: middle;
-			}
-		</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -95,6 +70,22 @@
 									</td>
 								</tr>
 							</table>
+						</section>
+
+						<section id="contact">
+							<div class = "contactContainer">
+								<form action="https://api.web3forms.com/submit" method="POST" class="contactForm">
+									<div class = "contactTitle">
+										<h2>Get in Touch!</h2>
+										<hr>
+									</div>
+									<input type="hidden" name="access_key" value="4ab5bfca-b999-4d9c-a87b-179ec30ad22c">
+									<input type="text" name="name" placeholder="Your Name" class="contactInputs" required>
+									<input type="email" name="email" placeholder="Your Email" class="contactInputs" required>
+									<textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
+									<button type="submit">Submit <img src="images/submitArrow.png" width="25" height="25"></button>
+								</form>
+							</div>
 						</section>
 					</div>
 				</div>
