@@ -6,11 +6,13 @@
 -->
 <html>
 	<head>
-		<title>DermaVision Technologies - Contact</title>
+		<title>DermaVision Technologies, INC.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/contactStyle.css" />
+		<link rel="stylesheet" href="assets/css/accordion.css" />
+
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -18,97 +20,150 @@
 
 			<!-- Header -->
 			<header id="header">
-				<h1 id="logo"><a href="index.html">DermaVision Technologies</a></h1>
+				<h1 id="logo">
+					<a href="index.html" class="logo-link">
+						<img src="images/Iris_whiteRemoved2.png" alt="DermaVision Technologies, Inc. Logo" height="40" width="auto">
+						<span>DermaVision Technologies, Inc.</span>
+					</a>
+				</h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="team.html">Team</a></li>
+						<li><a href="team.html">Company</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						<li><a href="dvhelp.html" class="button primary">DV Help & Resources</a></li>
+						<li><a href="dvhelp.html" class="button primary2">DV Help & Resources</a></li>
 					</ul>
 				</nav>
 			</header>
-
+			
 			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2>Contact Us</h2>
-						</header>
+			<div id="main" class="wrapper style1">
 
-					<!-- Contact (using web3forms) -->
-						<section id="contact">
-							<div class = "contactContainer">
-								<form action="https://api.web3forms.com/submit" method="POST" class="contactForm">
-									<div class = "contactTitle">
-										<h2 style="font: inherit; font-size: 35px; text-align: center;" >Get in Touch!</h2>
-										<hr>
-									</div>
-									<input type="hidden" name="access_key" value="58392f88-a6a2-41d8-91eb-ad68de5fb7b0"> <!-- ACCESS KEY FOR DVT: 58392f88-a6a2-41d8-91eb-ad68de5fb7b0-->
-									<input type="text" name="name" placeholder="Your Name" class="contactInputs" required>
-									<input type="email" name="email" placeholder="Your Email" class="contactInputs" required>
-									<textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
-									<button type="submit">Submit <img src="images/submitArrow.png" width="25" height="25"></button>
-								</form>
-							</div>
-						</section>
+				<div class="container">
+					<header class="major"><h2><strong>Contact Us and FAQ</strong></h2></header>
+					<h2 style="text-align: center;"><em>We are happy to answer any question on your mind!</em></h2>
 
-					<!-- Content -->
-						<section id="content">
-							<table>
-								<tr class = "red-row">
-									<td style="font-size: 35px; text-align: center; font-weight: bold; color:#e44c65; border-color: rgba(255, 255, 255, 0.75);"><i>General Inquiry</i></td>
-									<td style="font-size: 20px; font-weight: 575;">We are happy to answer any questions you may have.  Please email us and we will get back to you as soon as possible.</td>
-								</tr>
-								<tr class = "green-row">
-									<td style="font-size: 35px; text-align: center; font-weight: bold; color:#39c088; border-color: rgba(255, 255, 255, 0.75);"><i>Sponsorship Inquiry</i></td>
-									<td style="font-size: 20px; font-weight: 575">If you are interested in supporting our cause directly, please email us with the following details to see how you can get involved:
-										<ul>
-											<li>Sponsor/Organization Name</li>
-											<li>Motivation Behind Potential Sponsorship</li>
-											<li>Any Specific Goals or Ideas in Mind</li>
-											<li>Nature of Sponsorship</li>
-										</ul>
-										We look forward to hearing from you, and we will follow up with any sponsorship inquiries to discuss more on the matter.
-									</td>
-								</tr>
-								<tr class = "blue-row">
-									<td style="font-size: 35px; text-align: center; font-weight: bold; color:#5480f1; border-color: rgba(255, 255, 255, 0.75);"><i>Join The DermaVision Team!</i></td>
-									<td style="font-size: 20px; font-weight: 575">Our recruitment application opens at the start of the Spring Quarter. Potential candidates must meet the following qualifications:
-										<ul>
-											<li>Full-Time Undergraduate (Incoming 3rd or 4th Year) or Graduate Student at UCI majoring in STEM or Related Field</li>
-											<li>Minimum 3.3 GPA</li>
-											<li>Knowledge of rudimentary physics, math, and biology/chemistry</li>
-											<li>Knowledge of programming (Python, MATLAB, LabVIEW) and/or SolidWorks/Fusion360</li>
-										</ul>
-										You can learn more about bonus qualifications and expectations once recruitment begins. <em>Applications Open April 7th, 2025</em>
-									</td>
-								</tr>
-							</table>
-						</section>
-
-						
-					</div>
+					<section id="contact"> <!-- Hosted by web3forms -->
+						<div class = "contactContainer">
+							<form action="https://api.web3forms.com/submit" method="POST" class="contactForm">
+								<div class = "contactTitle">
+									<h2 style="font: inherit; font-size: 35px; text-align: center;" >Contact Us!</h2>
+								</div>
+								<input type="hidden" name="access_key" value="58392f88-a6a2-41d8-91eb-ad68de5fb7b0"> <!-- ACCESS KEY FOR DVT: 58392f88-a6a2-41d8-91eb-ad68de5fb7b0-->
+								<input type="text" name="name" placeholder="Your Name" class="contactInputs" required>
+								<input type="email" name="email" placeholder="Your Email" class="contactInputs" required>
+								<textarea name="message" placeholder="Your Message" class="contactInputs" required></textarea>
+								<button type="submit">Submit <img src="images/submitArrow.png" width="25" height="25"></button>
+							</form>
+						</div>
+					</section>
 				</div>
 
+				<div class="container">
+					<header class="major"><h2><strong>Frequently Asked Questions</strong></h2></header>
+					<section id="content">
+
+						<button class="accordion"><h3>What is the best way to get involved directly?</h3></button>
+						<div class="panel">
+							<h4> 
+								We are looking for potential investors to help raise $600k in pre-seed funding 
+								to help refine our hardware product.
+								<br><br>
+								We are also looking for future partners and collaborators to help validate 
+								our product and collect data to begin empowering domestic violence survivors.  
+								<br><br>
+								<strong>Get involved TODAY by emailing us your:</strong>
+								<em>
+									<ul>
+										<li>Sponsor/Organization Name</li>
+										<li>Specific Goals and Ideas in Mind</li>
+										<li>Nature of Sponsorship</li>
+									</ul>
+								</em>
+								<strong>We look forward to hearing from you! Thank you!</strong>
+							</h4>
+						</div>
+
+						<br><br>
+
+						<button class="accordion"><h3>I am an organization looking to help. What are you looking for?</h3></button>
+						<div class="panel">
+							<h4>
+								We are always looking for more stories, more problems, and more motivation.
+								<br><br>
+								If you would like to share anything with us, we would be happy to connect with you
+								and schedule a chat to help us learn more! 
+								<br><br>
+								<strong>
+									Please reach out with some tentative times and 
+									we will get back to you as soon as possible! Thank you!
+								</strong>
+								<em>
+									Note: Our team operates on Pacific Time (PT) but we will do our best 
+									to accommodate to your time zone!  
+								</em>
+							</h4>
+						</div>
+
+						<br><br>
+
+						<button class="accordion"><h3>I am an organization looking to purchase the product. Where can I get a quote?</h3></button>
+						<div class="panel">
+							<h4>
+								Our products are not available for purchase...yet! 
+								<br><br>
+								To ensure that our device complies with biomedical standards and improve accuracy, 
+								we are continuing to refine and validate our product. 
+								<br><br>
+								<strong>
+									We are still looking for partners to participate in future trials and testing. 
+									Please connect with us so we know you are interested! Thank you!
+								</strong>
+							</h4>
+						</div>
+
+						<hr />
+
+						<button class="accordion"><h3>I am a student looking to get involved! Where can I start?</h3></button>
+						<div class="panel">
+							<h4>
+								Previously, we have offered students (local to the Irvine area) opportunities through academic credits. 
+								<br><br>
+								Unfortunately, we are not offering student internships, academic credit opportunitites, 
+								or paid positions at this time. Please check back for our call for applications!
+								<br><br>
+								<em>
+									Engineering students at the University of California, Irvine, 
+									may still participate in an adjacent project through BME 180 (Senior Design). 
+									Please email the course instructor for more details. 
+								</em>
+							</h4>
+						</div>
+
+					</section>
+				</div>
+
+			</div>
+
 			<!-- Footer -->
-			<section class="wrapper style2 special fade"><div class="container">
-				<header><h2>NO ONE should have to face abuse alone.</h2></header>
-				<p><strong>You deserve help, support, and a way out — <em>REACH OUT NOW.</em></strong></p>
+			<section id="four" class="wrapper style2 special fade"><div class="container">
+				<header><h2 style="color: #fff;">NO ONE should have to face abuse alone.</h2></header>
+				<p><strong style="color: #fff;">You deserve help, support, and a way out — <em>REACH OUT NOW.</em></strong></p>
 				<ul class="actions special">
 					<li><a href="dvhelp.html" class="button primary">Domestic Violence Help and Resources</a></li>
 				</ul>
 			</div></section>
-			<footer id="footer"><section class="container">
-				<p style="font-size: 16px; color: rgb(173, 173, 173)"><em>
-					Due to non-disclosure policies regarding unpublished research and designs, sensitive information has been omitted to preserve confidentiality. 
-				</em></p>
-				<ul class="copyright">
-					<li>&copy; DermaVision Technologies, 2023 ~ 2025. All rights reserved.</li>
-					<li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</section></footer>
+			<footer id="footer">
+				<section class="container">
+					<p style="font-size: 16px; color: rgb(173, 173, 173)"><em>
+						Unpublished research and sensitive information has been omitted to preserve confidentiality and protect ongoing patent filings. 
+					</em></p>
+					<ul class="copyright">
+						<li>&copy; DERMAVISION TECHNOLOGIES, INC. 2026. All rights reserved.</li>
+						<li>Template Credit: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</section>
+			</footer>
 
 		</div>
 
@@ -120,7 +175,9 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/accordion.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
+

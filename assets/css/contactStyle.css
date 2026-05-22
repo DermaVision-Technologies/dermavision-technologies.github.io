@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Roboto", Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 table {
     width: 100%;
@@ -15,20 +15,9 @@ th, td {
     text-align: left;
     border: 2px solid;
 }
-.red-row td {
-    height: 400px;
-    vertical-align: middle;
-}
-.green-row td {
-    height: 400px;
-    vertical-align: middle;
-}
-.blue-row td {
-    height: 400px;
-    vertical-align: middle;
-}
+
 .contactContainer {
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -48,7 +37,7 @@ th, td {
     border: none;
     width: 200px;
     height: 5px;
-    background-color: white;
+    background-color: #000;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -58,18 +47,31 @@ th, td {
     font-weight: 500px;
 }
 .contactForm button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     display: flex;
     align-items: center;
     padding: 15px 30px;
     font-size: 16px;
-    color: black;
+    color: #000;
     font-weight: bold;
     gap: 10px;
     border: none;
     border-radius: 10px;
-    background: red;
+    background: rgb(200, 200, 200);
     cursor: pointer;
 }
+
+    button:hover {
+        background-color: #27b7c2 ;
+    }
+	
 @media (max-width:800px) {
     .contactInputs{
         width: 80vw;
